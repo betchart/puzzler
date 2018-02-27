@@ -11,7 +11,7 @@ main = do
 binops :: [Binop]
 binops = "+-*/"
          
-rpnEqual100 :: PN -> Bool
+rpnEqual100 :: RPN -> Bool
 rpnEqual100 = (==100).solveRPN
 
 rpnSolutions :: [Digit] -> [RPN]

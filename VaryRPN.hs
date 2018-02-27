@@ -16,7 +16,7 @@ of operator application to a sequence of digits.
 
 For strictly binary operators, a valid expression in PN always ends
 with an operand, and any prefix of the expression (up to but not
-including the final operand) always contains as at least as many
+including the final operand) always contains at least as many
 operators as operands (every such prefix is a Dyck word).
 
 Given a valid PN expression of n operands, a valid PN expression of
